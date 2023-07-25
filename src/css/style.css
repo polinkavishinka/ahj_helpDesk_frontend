@@ -1,0 +1,204 @@
+body {
+  background-color: aliceblue;
+  position: relative;
+
+}
+
+.field {
+  width: 80%;
+  min-height: 400px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f1f1f1;
+  padding: 2% 2%;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.add-button {
+  width: 25%;
+  height: 40px;
+  display: block;
+  border-radius: 1.5rem;
+  border: 1px solid #999999;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1rem;
+  color: #505050;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #999999;
+}
+
+.btn:active {
+  background-color: #b6b6b6;
+}
+
+.ticket-list {
+  display: block;
+  list-style-type: none;
+  width: 95%;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+.modal {
+  position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  left: 28%;
+  bottom: 10%;
+  padding: 30px;
+  border: 1px solid #999999;
+  border-radius: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+.form-header-wrapper {
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.input-header {
+  margin-bottom: 5px;
+}
+
+.form-input {
+  width: 95%;
+}
+
+.form-input:focus {
+  outline: 1px solid #505050;
+}
+
+#full-desc {
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100px;
+  width: 96%;
+  resize: none;
+  margin-bottom: 10px;
+}
+
+#full-desc:focus {
+  outline: 1px solid #505050;
+}
+
+.btn-group {
+  width: 50%;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.cancel-button {
+  width: 60%;
+  height: 40px;
+  border-radius: 1.5rem;
+  border: 1px solid #999999;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1rem;
+  color: #505050;
+  cursor: pointer;
+}
+
+.ok-button {
+  width: 35%;
+  height: 40px;
+  border-radius: 1.5rem;
+  border: 1px solid #999999;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1rem;
+  color: #505050;
+  cursor: pointer;
+}
+
+.ticket {
+  width: 100%;
+  margin: 0;
+  border: 1px solid #505050;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #505050;
+}
+
+.ticket-header {
+  padding-left: 5px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+}
+
+.ticket-status {
+  border: 1px solid #505050;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.ready {
+  background-image: url(../img/checkmark.png);
+  background-position: center;
+  background-size: contain;
+}
+
+.ticket-short-desc {
+  width: 60%;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.ticket-time {
+  width: 20%;
+}
+
+.edit-ticket {
+  border: 1px solid #505050;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url(../img/pencil.png);
+  background-position: center;
+  background-size: contain;
+}
+
+.remove-ticket {
+  border: 1px solid #505050;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url(../img/trash_empty.png);
+  background-position: center;
+  background-size: contain;
+}
+
+.ticket-full-desc {
+  display: none;
+}
+
+.visible {
+  display: block;
+  min-height: 40px;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-right: 20%;
+}
+
+.remove-form {
+  bottom: 30%
+}
