@@ -6,7 +6,7 @@ module.exports = {
   target: 'web',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/ajh-http-front/',
+    publicPath: '',
   },
   module: {
     rules: [
@@ -32,7 +32,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        test: /\.svg$/,
         type: 'asset/resource',
       },
     ],
